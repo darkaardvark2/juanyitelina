@@ -11,3 +11,14 @@
  *= require_self
  *= require_tree .
  */
+
+html {
+  background: url(website_background2.jpg);
+  background-position: bottom right;
+  background-attachment: fixed; 
+}
+
+h2 {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+}
