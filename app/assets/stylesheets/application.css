@@ -12,12 +12,6 @@
  *= require_tree .
  */
 
-html {
-	background: url(website_background2.jpg);
-	background-position: bottom right;
-	background-attachment: fixed; 
-}
-
 body {
 	font-family: cursive;
 	font-size: 14px;
