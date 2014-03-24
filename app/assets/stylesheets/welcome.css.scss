@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html {
-	background: url(image-path('website_background2.jpg'));
+	background: image-url('website_background2.jpg');
 	background-position: bottom right;
 	background-attachment: fixed; 
 }
