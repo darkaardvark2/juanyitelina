@@ -2,12 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-html {
-	background: image-url('website_background2.jpg');
-	background-position: bottom right;
-	background-attachment: fixed; 
-}
-
 @font-face {
   font-family: 'Champagne';    
   src: url(font-path('cac_champagne.ttf'))  format('truetype');
