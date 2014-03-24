@@ -5,6 +5,19 @@ Juanyitelina::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+    get 'story/' => 'welcome#story'
+    get 'location/' => 'welcome#location'
+    get 'location/driving' => 'welcome#directions_driving'
+    get 'location/transit' => 'welcome#directions_transit'
+    get 'accomodations/' => 'welcome#accomodations'
+    get 'weekend/' => 'welcome#weekend'
+    get 'registry/' => 'welcome#registry'
+    get 'guestbook/' => 'welcome#guestbook'
+    get 'rsvp/' => 'rsvps#new'
+    post 'rsvp/' => 'rsvps#create'
+    get 'rsvp/all' => 'rsvps#index'
+    get 'rsvp/:id' => 'rsvps#destroy'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

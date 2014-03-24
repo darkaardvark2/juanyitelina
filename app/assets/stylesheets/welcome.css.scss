@@ -1,3 +1,26 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+  font-family: 'Champagne';    
+  src: url(font-path('cac_champagne.ttf'))  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	font-family: cursive;
+	font-size: 14px;
+	color: gray;
+}
+
+.nav-btn {
+	font-family: Champagne;
+	font-size: 24px;
+}
+
+.directions-btn {
+	font-family: Champagne;
+	font-size: 24px;
+}

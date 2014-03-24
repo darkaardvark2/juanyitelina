@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Juanyitelina</title>
+  <title>Juan y Itelina</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= favicon_link_tag 'favicon.ico' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<div class="navigation">
+	<a href='/'><button class='nav-btn'>Home</button></a> <br>
+	<a href='/story/'><button class='nav-btn'>Story</button></a> <br>
+	<a href='/location/'><button class='nav-btn'>Location</button></a> <br>
+	<a href='/accomodations/'><button class='nav-btn'>Accomodations</button></a> <br>
+	<a href='/weekend/'><button class='nav-btn'>Weekend Plans</button></a> <br>
+	<a href='http://www.wedandwish.com/juananditelina' target='_blank'><button class='nav-btn'>Registry</button></a> <br>
+	<a href='/guestbook/'><button class='nav-btn'>Guestbook</button></a>
+	<a href='/rsvp/'><button class='nav-btn'>RSVP!</button></a>
+</div>
 
 <%= yield %>
 

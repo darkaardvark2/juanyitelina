@@ -1,0 +1,30 @@
+<div class="picture-frame-outer">
+	<div class="picture-frame-inner">
+		<%= image_tag("LIRR2.jpg", size: '210') %>
+	</div>
+</div>
+
+<div class="content">
+
+<div class="fb-comments" data-href="http://juanyitelina.com/guestbook" data-numposts="10" data-colorscheme="light" width='500px' data-order-by='reverse_time'></div>
+
+</div>
+
+<div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '249546121884613',
+          status     : true,
+          xfbml      : true
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/all.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>

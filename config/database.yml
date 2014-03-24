@@ -48,13 +48,13 @@ test:
   encoding: unicode
   database: juanyitelina_test
   pool: 5
-  username: 
-  password:
+  username: tester
+  password: tester
 
 production:
   adapter: postgresql
   encoding: unicode
   database: juanyitelina_production
   pool: 5
-  username:
-  password:
+  username: tester
+  password: tester

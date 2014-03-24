@@ -12,13 +12,147 @@
  *= require_tree .
  */
 
+@font-face {
+  font-family: 'Champagne';    
+  src: url(font-path('cac_champagne.ttf'))  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
-  background: url(website_background2.jpg);
-  background-position: bottom right;
-  background-attachment: fixed; 
+	background: url(website_background2.jpg);
+	background-position: bottom right;
+	background-attachment: fixed; 
+}
+
+body {
+	font-family: Champagne;
+	color: gray;
 }
 
 h2 {
-  font-family: Georgia, sans-serif;
-  text-align: center;
+	font-family: Helvetica, sans-serif;
+	margin-left: 35%;
+}
+
+.content {
+	margin-left:25%;
+	margin-right:35%;
+	margin-top: 5%;
+	float: center;
+}
+
+.navigation {
+	width: 20%;
+	float: left;
+	position: fixed;
+	text-align: center;
+}
+
+.picture-frame-outer {
+	width: 270px;
+	height:270px;
+	top: 10%;
+	right: 5%;
+	position: fixed;
+	margin-right: 5%;
+	background-color: pink;
+	border-bottom: 2px solid tomato;
+	border-right: 2px solid tomato;
+	border-radius: 5px;
+	display:none;
+}
+
+.picture-frame-inner {
+	margin-left: 30px;
+	margin-top: 30px;
+	width:210px;
+	height:210px;
+	border: 1px solid black;
+}
+
+.picture-frame-registry-outer {
+	width: 300px;
+	height:140px;
+	top: 60px;
+	right: 10%;
+	position: absolute;
+	margin-right: 5%;
+	background-color: pink;
+	border-bottom: 2px solid tomato;
+	border-right: 2px solid tomato;
+	border-radius: 5px;
+}
+
+.picture-frame-registry-inner {
+	margin-left: 20px;
+	margin-top: 10px;
+	width:260px;
+	height:120px;
+	border: 1px solid black;
+}
+
+.nav-btn {
+	margin-left: 40%;
+	margin-top: 10px;
+	float: top;
+	background-color: initial;
+	color: salmon;
+	height: 40px;
+	width: 120px;
+	font-size: 14px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.registry {
+	margin-left:15%;
+	margin-right:0%;
+	margin-top: 5%;
+	float: center;
+}
+
+.content-registry {
+	margin-left:10%;
+	margin-right:35%;
+	margin-bottom:60px;
+	float:left;
+	text-align:center;
+}
+
+.registry-header {
+	margin-bottom: 40px;
+	font-size: 18px;
+	float:top;
+	text-decoration: underline;
+}
+
+.map {
+	margin-top: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+}
+
+.directions-header {
+	margin-bottom: 20px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.directions-btn {
+	float:left;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-bottom: 40px;
+	background-color: initial;
+	color: salmon;
+	height: 40px;
+	width: 160px;
+	font-size: 14px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
 }
