@@ -12,13 +12,6 @@
  *= require_tree .
  */
 
-@font-face {
-  font-family: 'Champagne';    
-  src: url(font-path('cac_champagne.ttf'))  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
 	background: url(website_background2.jpg);
 	background-position: bottom right;
@@ -26,7 +19,8 @@ html {
 }
 
 body {
-	font-family: Champagne;
+	font-family: cursive;
+	font-size: 14px;
 	color: gray;
 }
 
